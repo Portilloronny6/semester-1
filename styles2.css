@@ -1,0 +1,30 @@
+body {
+    background-color: #FFFFAA;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.external-ul {
+    list-style-type: none;
+}
+
+.info {
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    background-color: #FFFFDD;
+    width: 40%;
+    padding-right: 10%;
+}
+
+b {
+    color: #00097F;
+}
+
+.recommendations {
+    padding-left: 10%;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Анкета покупател</title>
+  </head>
+  <body>
+    <section>
+      <div class="formulary">
+        <form action="index2.html" method="GET" id="farmacyForm">
+          <h1>Анкета покупател</h1>
+          <ol>
+            <li>
+              <label for="last-name">Фамилия: </label>
+              <input id="last-name" type="text" name="last-name" required />
+            </li>
+            <br />
+            <li>
+              <label for="name">Имя: </label>
+              <input id="name" type="text" name="name" required />
+            </li>
+            <br />
+            <li>
+              <label for="age">Возраст: </label>
+              <select name="age" id="age">
+                <option value="До 18 лет">До 18 лет</option>
+                <option value="От 18 до 25">От 18 до 25</option>
+              </select>
+            </li>
+            <br />
+            <li>
+              Я:
+              <br />
+              <br />
+              <input type="radio" name="option" value="Зарегистрированный покупатель" required />Зарегистрированный
+              покупатель
+              <br />
+              <input type="radio" name="option" value="Впервые пользуюсь услугами магазина" />Впервые пользуюсь услугами
+              магазина
+            </li>
+            <br />
+            <li>
+              Меня интересуют:
+              <br />
+              <input type="checkbox" name="book" value="Книги" />Книги
+              <br />
+              <input type="checkbox" name="music" value="Музыка на СР" />Музыка на СР магазина
+              <br />
+              <input type="checkbox" name="software" value="Программное обеспечение" />рограммное обеспечение
+              <br />
+              <input type="checkbox" name="stationery" value="Канцелярские товары" />Канцелярские товары
+              <br />
+              <input type="checkbox" name="souvenirs" value="Сувениры" />Сувениры
+              <br />
+              <label for="others">Другое: </label>
+              <input id="others" type="text" name="others" />
+            </li>
+            <br />
+            <li>
+              Мон пожелания и рекомендации:
+              <br />
+              <textarea name="recommendations" id="recommendations" cols="40" rows="5"></textarea>
+            </li>
+          </ol>
+          <input type="submit" value="Отправить анкету" />
+          <input type="reset" value="Обновить антеку" />
+        </form>
+      </div>
+    </section>
+
+    <script src="storage.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
